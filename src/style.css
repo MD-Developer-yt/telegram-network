@@ -149,7 +149,7 @@ body{
   border-radius:20px;
   padding:40px;
   display:grid;
-  grid-template-columns:300px 1fr;
+  grid-template-columns:250px 1fr 250px;
   gap:40px;
   align-items:center;
 }
@@ -188,9 +188,9 @@ body{
 
 .footer{
   border-top:1px solid #1e293b;
-  text-align:center;
   padding:40px;
   margin-top:40px;
+  background:#020617;
 }
 
 @media(max-width:900px){
@@ -216,6 +216,10 @@ body{
 .menu{
   flex-wrap:wrap;
   justify-content:center;
+}
+
+.footer div{
+  text-align:center !important;
 }
 
 }
